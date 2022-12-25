@@ -1,13 +1,15 @@
-export const initialState = [
+const initialState = [
     {
         id: 1,
         text: "Learning on Drupal",
-        completed: true
+        completed: true,
     },
     {
         id: 2,
         text: "Learning on Django",
         completed: false,
-        color: "red"
-    }
-]
+        color: "red",
+    },
+];
+
+export default initialState;
